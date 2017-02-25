@@ -3,6 +3,18 @@
 Morphological Snakes
 ====================
 
+Requirements
+====================
+```python
+pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
+sudo apt-get install  libjpeg-dev libfreetype6 libfreetype6-dev zlib1g-dev
+sudo apt-get install python-vtk  python-setuptools python-numpy
+sudo pip install Pillow
+```
+
+Description
+====================
+
 The *Morphological Snakes* are a family of related methods for image-guided
 evolution of curves and surfaces represented as a level-set of an embedding
 function. They have application in several computer vision areas, such as
